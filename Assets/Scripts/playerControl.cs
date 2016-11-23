@@ -72,10 +72,12 @@ public class playerControl : MonoBehaviour {
 			if (this.tag == "Player2") {
 				Destroy (gameObject);
 				print ("Player 1 Won");
+				Console.WriteLine("Made By Eraj Sattori");
 				Application.LoadLevel ("Player1win");
 			} else if (this.tag == "Player") {
 				Destroy (gameObject);
 				print ("Player 2 won");
+				Console.WriteLine("Made By Eraj Sattori");
 				Application.LoadLevel ("Player2win");
 			}
 		}
